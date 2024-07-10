@@ -1,0 +1,17 @@
+.title {
+  font-size: 4rem;
+  color: #2a2a2a;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #7c7c7c;
+  font-weight: 800;
+}
+
+.letter {
+  color: #9a1b30;
+}

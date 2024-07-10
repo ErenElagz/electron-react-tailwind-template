@@ -1,13 +1,13 @@
 import { FC } from "react";
-import Navbar from "../components/navbar/navbar";
-import Button from "../components/button/button";
-import HeroSection from "../components/hero-section/hero-section";
-export const Home: FC = () => {
+import Navbar from "../../components/navbar/navbar";
+import Button from "../../components/button/button";
+import HeroSection from "../../components/hero-section/hero-section";
+export const SignUp: FC = () => {
 	return (
 		<>
 			<main className="flex min-h-screen flex-col items-center p-8">
 				<header className="flex justify-between items-center w-full	">
-					<a href="#">
+					<a href="#/">
 						<img
 							src="https://www.hitit.edu.tr/images/HititLogoYeni.svg"
 							alt="Logo"
@@ -22,9 +22,6 @@ export const Home: FC = () => {
 						<a href="#/signIn"><Button>Login</Button></a>
 					</div>
 				</header>
-				<section>
-					<HeroSection />
-				</section>
 				<div className="min-h-screen bg-white">
 					<main className="flex justify-center items-center py-20">
 						<div className="w-full max-w-md">
@@ -59,10 +56,18 @@ export const Home: FC = () => {
 										placeholder="Password"
 										className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
 									/>
-								</div>
-								<div className="w-full">
-
-									<Button className="w-full">Login</Button>
+									<label
+										className="block text-gray-700 text-sm font-bold mb-2"
+										htmlFor="password"
+									>
+										Password
+									</label>
+									<input
+										id="password"
+										type="password"
+										placeholder="Password"
+										className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+									/>
 								</div>
 							</form>
 						</div>

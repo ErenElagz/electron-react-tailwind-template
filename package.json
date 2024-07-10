@@ -1,17 +1,13 @@
 {
-	"name": "electron-react-tailwind-template",
+	"name": "internship-management-system",
 	"author": {
-		"email": "demirci.baris38@gmail.com",
-		"name": "Barış DEMİRCİ",
-		"url": "https://338.rocks"
+		"email": "erenelagoz@gmail.com",
+		"name": "Eren Elagoz",
+		"url": "https://github.com/ErenElagz"
 	},
-	"description": "Electron app template with React and Tailwind CSS",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/barbarbar338/electron-react-tailwind-template"
-	},
+	"description": "Hitit University Internship Managment System",
 	"license": "GPL-3.0",
-	"version": "1.0.1",
+	"version": "1.0.0",
 	"private": true,
 	"devDependencies": {
 		"@types/node": "^18.11.10",
