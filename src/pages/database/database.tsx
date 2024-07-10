@@ -1,7 +1,6 @@
 import { FC } from "react";
 import Navbar from "../../components/navbar/navbar";
-import Button from "../../components/button/button";
-import HeroSection from "../../components/hero-section/hero-section";
+import ButtonGroup from "../../components/button/buttonGroup";	
 export const Database: FC = () => {
 	return (
 		<>
@@ -17,14 +16,8 @@ export const Database: FC = () => {
 					</a>
 
 					<Navbar />
-					<div className="flex gap-4">
-						<a href="#/signUp">
-							<Button>Create an Account</Button>
-						</a>
-						<a href="#/signIn">
-							<Button>Login</Button>
-						</a>
-					</div>
+					<ButtonGroup />
+
 				</header>
 				<div className="min-h-screen bg-white">
 					<main className="flex justify-center items-center py-20">
