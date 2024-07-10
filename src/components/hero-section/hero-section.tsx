@@ -4,8 +4,8 @@ function HeroSection() {
 	return (
 		<div className="mt-10">
 			<h1 className="title text-center">
-				Hitit University <span className="letter">I</span>nternship{" "}
-				<br />
+				Hitit University <br />
+				<span className="letter">I</span>nternship{" "}
 				<span className="letter">M</span>anagment{" "}
 				<span className="letter">S</span>ystem
 			</h1>

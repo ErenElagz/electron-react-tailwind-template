@@ -1,4 +1,3 @@
-// src/components/Button.tsx
 import React from 'react';
 import './button.css';
 import Button from './button';
